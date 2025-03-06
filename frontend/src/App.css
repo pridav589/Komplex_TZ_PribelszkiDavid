@@ -1,0 +1,11 @@
+.bg-fej {
+    background-image: url('./assets/oktatas-01.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .bg-torzs {
+    
+    min-height: 100vh;
+  }
