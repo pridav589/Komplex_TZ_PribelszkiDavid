@@ -1,18 +1,16 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/NavBar.jsx';
-import Index from './pages/Index.jsx';
+import Home from './pages/Home.jsx';
 import Felvettek from './pages/Felvettek.jsx';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div>
       <Navbar />
-      <div className="bg-torzs py-4">
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/" element={<Home />} />
           <Route path="/felvettek" element={<Felvettek />} />
         </Routes>
-      </div>
     </div>
   );
 }

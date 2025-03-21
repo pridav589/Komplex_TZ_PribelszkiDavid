@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-function Index() {
+function Home() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -86,4 +86,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default Home;
